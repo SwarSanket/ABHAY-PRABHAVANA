@@ -53,7 +53,7 @@ export default function Facilities() {
               }`}
             >
               <h3
-                className="px-1 text-2xl font-bold text-left text-white sm:text-left"
+                className="px-1 text-xl font-bold text-left text-white sm:text-left"
                 dangerouslySetInnerHTML={{ __html: feature.title }}
               ></h3>
               <p className="px-2 py-1 content-all sm:text-left">
@@ -73,7 +73,7 @@ export default function Facilities() {
               }`}
             >
               <h3
-                className="px-1 text-2xl font-bold text-left text-white sm:text-left"
+                className="px-1 text-xl font-bold text-left text-white sm:text-left"
                 dangerouslySetInnerHTML={{ __html: featuretwo.title }}
               ></h3>
               <p className="py-1 pr-2 content-all sm:text-left">

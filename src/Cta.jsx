@@ -22,7 +22,7 @@ const CTA = () => {
         </div>
       </div>
       <div className="flex flex-col items-center w-full md:w-3/5 md:items-start">
-        <span className="mb-2 text-3xl md:mr-4 md:mb-4 sm:text-center">Experience Jainism in Your Inbox</span>
+        <span className="mb-2 text-3xl text-center md:mr-4 md:mb-4 md:text-left">Experience Jainism in Your Inbox</span>
         <form className="flex w-2/3">
           <input
             type="email"
