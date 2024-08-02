@@ -33,7 +33,7 @@ function AmarPreranaTrust() {
           <p className='text-lg text-fipch-grey'>Shri Navalmal Kundanmal Firodia (1910-1997), a <span className='font-bold'>freedom fighter, pioneering industrialist</span> , and <span className='font-bold'>passionate philanthropist</span>, established the Amar Prerana Trust in 1991.</p>
           <p className='text-lg text-fipch-grey'>The Amar Prerana Trust is a unique charitable organization dedicated to promoting the ideals of moral and ethical living.</p>
         
-          <h1 className='mb-4 font-bold text-fipch-heading text-fipch-orange'>THE TRUST FOCUSSES ON</h1>
+          <h1 className='mb-4 font-bold text-fipch-subheading text-fipch-orange'>THE TRUST FOCUSSES ON</h1>
 
           <Timeline />
         

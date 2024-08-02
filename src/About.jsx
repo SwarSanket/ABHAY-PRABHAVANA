@@ -8,6 +8,7 @@ import FoundersAndTrustees from './components/about/FoundersAndTrustees'
 import CTA from './Cta'
 import Footer from './Footer'
 import Tradition from './components/about/Tradition'
+import Legacy from './components/about/Legacy'
 
 export default function About() {
   return (
@@ -21,7 +22,7 @@ export default function About() {
     <VerticalsSection />
     <FoundersAndTrustees />
     <Tradition />
-
+    <Legacy />
     <CTA />
     <Footer />
 

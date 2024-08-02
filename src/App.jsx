@@ -11,6 +11,7 @@ import Header from "./Header";
 import FipchVideo from "./FipchVideo";
 import Welcome from "./Welcome";
 import JourneyOption from "./JourneyOption";
+import JourneySwiper from "./JouerneySwiper";
 
 
 

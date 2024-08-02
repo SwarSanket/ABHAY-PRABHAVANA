@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useRef, useState } from 'react';
+
 import jrone1 from "./assets/home/Jouney/JOURNEY1/1.jpg";
 import jrone2 from "./assets/home/Jouney/JOURNEY1/2.jpg";
 import jrone3 from "./assets/home/Jouney/JOURNEY1/3.jpg";
@@ -19,100 +20,47 @@ import jrfour3 from "./assets/home/Jouney/JOURNEY4/3.jpg";
 import jrfour4 from "./assets/home/Jouney/JOURNEY4/4.jpg";
 import jrfour5 from "./assets/home/Jouney/JOURNEY4/5.jpg";
 
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faChevronLeft,
-  faChevronRight,
-} from "@fortawesome/free-solid-svg-icons";
 
-// Custom Next Arrow
-function NextArrow(props) {
-  const { onClick } = props;
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+
+import "./App.css";
+
+// import required modules
+
+import { Navigation } from 'swiper/modules';
+
+
+export default function JourneySwiper() {
   return (
-    <div
-      className="absolute top-1/2 right-[-50px] transform -translate-y-1/2 cursor-pointer z-10"
-      onClick={onClick}
-    >
-      <FontAwesomeIcon
-        icon={faChevronRight}
-        className="text-2xl text-orange-500"
-      />
-    </div>
-  );
-}
+    <>
 
-// Custom Prev Arrow
-function PrevArrow(props) {
-  const { onClick } = props;
-  return (
-    <div
-      className="absolute top-1/2 left-[-50px] transform -translate-y-1/2 cursor-pointer z-10"
-      onClick={onClick}
-    >
-      <FontAwesomeIcon
-        icon={faChevronLeft}
-        className="text-2xl text-orange-500 "
-      />
-    </div>
-  );
-}
-
-export default function JourneyOption() {
-  const settings = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    centerMode: false,
-    centerPadding: "0px",
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
-    initialSlide: 0,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: false,
-          initialSlide: 0,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          centerMode: false,
-          initialSlide: 0,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          centerMode: false,
-          initialSlide: 0,
-        },
-      },
-    ],
-  };
-
-  return (
-    <div className="relative flex justify-center w-full py-20 overflow-hidden">
+<div className="relative flex justify-center w-full py-20 overflow-hidden">
       <div className="relative w-[90%] sm:w-[100%] md:w-[95%] lg:w-[85%] xl:w-1/2 mx-auto">
         <h1 className="mb-6 font-bold text-center text-fipch-heading text-fipch-orange">
           JOURNEY OPTIONS
         </h1>
-        <Slider {...settings}>
-          {/* Card 1 */}
-          <div className="flex flex-col h-full p-4">
+
+      <Swiper
+        slidesPerView={2}
+        spaceBetween={30}
+        navigation={true} 
+        modules={[Navigation]} // Only include Navigation module
+        className="mySwiper"
+      >
+
+
+
+
+
+        <SwiperSlide>
+
+        {/* Card 1 */}
+        <div className="flex flex-col h-full p-4">
             <div
               className="flex flex-col flex-1 border-4 rounded-lg shadow-lg"
               style={{ borderColor: "#F59886" }}
@@ -173,7 +121,11 @@ export default function JourneyOption() {
             </div>
           </div>
 
-          {/* Card 2 */}
+        </SwiperSlide>
+        
+        <SwiperSlide>
+
+            {/* Card 2 */}
           <div className="flex flex-col h-full p-4">
             <div
               className="flex flex-col flex-1 border-4 rounded-lg shadow-lg"
@@ -233,8 +185,10 @@ export default function JourneyOption() {
               </div>
             </div>
           </div>
-
-          {/* Card 3 */}
+          
+        </SwiperSlide>
+        <SwiperSlide>
+            {/* Card 3 */}
           <div className="flex flex-col h-full p-4 mb-8">
             <div
               className="flex flex-col flex-1 border-4 rounded-lg shadow-lg"
@@ -307,8 +261,10 @@ export default function JourneyOption() {
               </div>
             </div>
           </div>
-
-          {/* Card 4 */}
+          
+        </SwiperSlide>
+        <SwiperSlide>
+            {/* Card 4 */}
           <div className="flex flex-col p-4 h-1/2">
             <div
               className="flex flex-col flex-1 border-4 rounded-lg shadow-lg"
@@ -375,21 +331,11 @@ export default function JourneyOption() {
               </div>
             </div>
           </div>
-        </Slider>
-
-        <div className="flex justify-center">
-          <h3 className="text-xs sm:text-sm md:text-xl text-center font-semibold border-8 border-[#F59886] rounded-full  text-[#F59886] py-3 px-5">
-            {" "}
-            ADD ON EXPERIENCE : MANTSTAMBH VIEWING GALLERY{" "}
-          </h3>
-        </div>
-
-        <div className="flex justify-center">
-          <button className="py-3 bg-gradient-to-br from-[#f15a22] to-[#fcb415] my-3  px-5 text-white">
-            Book Now
-          </button>
-        </div>
+        </SwiperSlide>
+        
+      </Swiper>
       </div>
-    </div>
+      </div>
+    </>
   );
 }

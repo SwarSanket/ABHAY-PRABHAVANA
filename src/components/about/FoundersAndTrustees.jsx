@@ -14,12 +14,12 @@ const FoundersAndTrustees = () => {
          
 
           <div className="mt-4 md:mt-0">
-            <p className="mb-4 text-xl text-fipch-grey">
+            <p className="mb-4 text-xl text-justify text-fipch-grey">
               The <span className='font-bold'>Firodia Family</span> have been successful entrepreneurs for generations.
               They have founded and nurtured many businesses, companies as well as
               social, educational and healthcare institutions.
             </p>
-            <p className="mb-4 text-xl text-fipch-grey">
+            <p className="mb-4 text-xl text-justify text-fipch-grey">
              <span className='font-bold'>Late Shri Kundanmal Firodia</span> was the first Speaker of Vidhan Sabha,
               “Bombay Presidency Province”, from 1946 to 1952. He founded <span className='font-bold'>Shri Firodia
               Trust</span> in 1947.
@@ -44,7 +44,7 @@ const FoundersAndTrustees = () => {
          
 
           <div className="mt-4 md:mt-0">
-            <p className="mb-4 text-xl text-fipch-grey">
+            <p className="mb-4 text-xl text-justify text-fipch-grey">
               His son, <span className='font-bold'>Late Shri Navalmalkundanmal Firodia</span>, was a <span className='font-bold'>freedom fighter,
               pioneer industrialist and passionate philanthropist</span>. Among other
               institutions, he founded the <span className='font-bold'>Amar Prerana Trust</span> in 1991. He is the inventor of
@@ -72,7 +72,7 @@ const FoundersAndTrustees = () => {
           
 
           <div className="mt-4 md:mt-0">
-            <p className="mb-4 text-xl text-fipch-grey">
+            <p className="mb-4 text-xl text-justify text-fipch-grey">
               <span className='font-bold'>Shri Abhay Firodia</span> is the son of late Shri Navalmalkundanmal Firodia, and
               the Chairman of Force Motors Limited. Force Motors is a pioneer in the
               Automobile Industry in India for more than 60 years. It has manufactured

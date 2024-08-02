@@ -30,7 +30,7 @@ const VerticalsSection = () => {
 
   return (
     <div className="container px-4 pb-10 mx-auto">
-      <h1 className="pb-5 mb-8 font-bold md:text-left text-fipch-heading text-fipch-orange md:text-fipch-heading sm:text-center">
+      <h1 className="pb-5 mb-8 font-bold md:text-left text-fipch-subheading text-fipch-orange md:text-fipch-subheading sm:text-center">
         THE AMAR PRERANA TRUST OPERATES THREE VERTICALS
       </h1>
       <div className="space-y-8">

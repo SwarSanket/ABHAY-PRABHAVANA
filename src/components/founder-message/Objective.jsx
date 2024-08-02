@@ -4,7 +4,7 @@ const Objective = () => {
   return (
     <div className="pt-6 pb-12 bg-fipch-conch">
       <div className="container p-6 mx-auto ">
-        <h2 className="mb-6 font-bold text-fipch-heading text-fipch-orange">
+        <h2 className="mb-6 font-bold text-fipch-subheading text-fipch-orange">
           OBJECTIVE OF THE MUSEUM
         </h2>
         <ul className="space-y-4">
