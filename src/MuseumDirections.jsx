@@ -16,7 +16,7 @@ const MuseumDirections = () => {
         <img
           src={mapImage}
           alt="Museum Directions Map"
-          className="w-full h-auto "
+          className="w-full h-auto"
         />
         <div className="absolute top-0 left-0 px-4 py-2 text-xl font-semibold text-white rounded-br-lg bg-fipch-pink">
           <a href="#">GET MUSEUM DIRECTIONS</a>
