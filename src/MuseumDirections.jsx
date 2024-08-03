@@ -40,7 +40,7 @@ const MuseumDirections = () => {
               size="lg"
               className="mr-2 icon text-fipch-grey"
             />
-            <div className="text-sm font-bold text-fipch-grey">
+            <div className="text-sm font-bold 2xl:text-2xl text-fipch-grey">
               100 km From Mumbai
             </div>
           </div>

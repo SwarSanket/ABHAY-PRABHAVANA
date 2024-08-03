@@ -1,14 +1,19 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faTimes, faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
 import ApLogo from "./assets/AP-Logo.png";
 import { Link } from "react-router-dom";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
 
   const onMenuToggle = () => {
     setMenuOpen(!menuOpen);
+  };
+
+  const onDropdownToggle = () => {
+    setDropdownOpen(!dropdownOpen);
   };
 
   return (
@@ -36,8 +41,23 @@ function Header() {
                 <li className="text-fipch-grey font-bold relative max-w-fit pr-3 md:pr-0 py-1 after:bg-gradient-to-r from-[#f15a22] to-[#fcb415] after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300">
                   <a href="#">EXPERIENCES</a>
                 </li>
-                <li className="text-fipch-grey font-bold relative max-w-fit pr-3 md:pr-0 py-1 after:bg-gradient-to-r from-[#f15a22] to-[#fcb415] after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300">
-                  <Link to={'/About'}>ABOUT US</Link>
+                <li className="relative py-1 pr-3 font-bold cursor-pointer text-fipch-grey md:pr-0" onMouseEnter={onDropdownToggle} onMouseLeave={onDropdownToggle}>
+                  <div className="flex items-center justify-between">
+                    <Link to={'/About'}>ABOUT US</Link>
+                    <FontAwesomeIcon icon={dropdownOpen ? faChevronUp : faChevronDown} className="ml-2" />
+                  </div>
+                  <ul
+                    className={`absolute left-0 mt-2 bg-white shadow-lg rounded-md py-2 transition-all duration-300 ${
+                      dropdownOpen ? "opacity-100 visible" : "opacity-0 invisible"
+                    }`}
+                  >
+                    <li className="px-4 py-2 hover:bg-gray-200">
+                      <Link to={'/founder-message'}>Abhay Prabhavana</Link>
+                    </li>
+                    <li className="px-4 py-2 hover:bg-gray-200">
+                      <Link to={'/About'}>Amar Prerana Trust</Link>
+                    </li>
+                  </ul>
                 </li>
               </ul>
             </div>

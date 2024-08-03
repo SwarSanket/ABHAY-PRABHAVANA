@@ -1,7 +1,5 @@
 import React from 'react'
 import Header from './Header'
-import AboutAbhayPrabhavana from './components/about/AboutAbhayPrabhavana'
-import MissionVision from './components/about/VisionMission'
 import AmarPreranaTrust from './components/about/AmarPreranaTrust' 
 import VerticalsSection from './components/about/VerticalsSection'
 import FoundersAndTrustees from './components/about/FoundersAndTrustees'
@@ -16,8 +14,6 @@ export default function About() {
         
     <div>
     <Header /> 
-    <AboutAbhayPrabhavana />   
-    <MissionVision />
     <AmarPreranaTrust />
     <VerticalsSection />
     <FoundersAndTrustees />
