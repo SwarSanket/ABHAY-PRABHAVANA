@@ -36,7 +36,7 @@ function Header() {
             >
               <ul className="flex md:flex-row flex-col md:items-center md:gap-[2vw] gap-8">
                 <li className="text-fipch-grey font-bold relative max-w-fit pr-3 md:pr-0 py-1 after:bg-gradient-to-r from-[#f15a22] to-[#fcb415] after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300">
-                  <Link to={'/'}>HOME</Link>
+                  <Link to={'/'}>HO</Link>
                 </li> 
                 <li className="text-fipch-grey font-bold relative max-w-fit pr-3 md:pr-0 py-1 after:bg-gradient-to-r from-[#f15a22] to-[#fcb415] after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300">
                   <a href="#">EXPERIENCES</a>
