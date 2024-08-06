@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className="w-full text-fipch-grey">
       <div className="flex flex-col w-full space-y-8 md:flex-row md:space-y-0">
-        <div className="flex flex-col items-center px-16 py-16 space-y-4 sm:items-start">
+        <div className="flex flex-col items-start px-16 py-16 space-y-4 sm:items-start">
           <img
             src={LogoVertical}
             alt="Abhay Prabhavana Logo"
