@@ -1,5 +1,7 @@
 import React from "react";
-import LogoVertical from "./assets/Logo-Vertical.png";
+// import LogoVertical from "./assets/header-footer/Logo-Vertical.png";
+import LogoVertical from "../../assets/header-footer/Logo-Vertical.png";
+
 import { FaCalendarAlt, FaClock, FaMapMarkerAlt } from "react-icons/fa";
 
 const Footer = () => {

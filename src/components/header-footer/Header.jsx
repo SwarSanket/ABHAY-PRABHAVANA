@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes, faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
-import ApLogo from "./assets/AP-Logo.png";
+import ApLogo from "../../assets/header-footer/AP-Logo.png";
 import { Link } from "react-router-dom";
 
 function Header() {
@@ -39,7 +39,7 @@ function Header() {
                   <Link to={'/'}>HOME</Link>
                 </li> 
                 <li className="text-fipch-grey font-bold relative max-w-fit pr-3 md:pr-0 py-1 after:bg-gradient-to-r from-[#f15a22] to-[#fcb415] after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300">
-                  <a href="#">EXPERIENCES</a>
+                  <Link to = {'/Expriences'}>EXPERIENCES</Link>
                 </li>
                 <li className="relative py-1 pr-3 font-bold cursor-pointer text-fipch-grey md:pr-0" onMouseEnter={onDropdownToggle} onMouseLeave={onDropdownToggle}>
                   <div className="flex items-center justify-between">

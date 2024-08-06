@@ -1,9 +1,9 @@
 import React from 'react';
-import ex1 from './assets/home/1.jpg';
-import ex2 from './assets/home/2.jpg';
-import ex3 from './assets/home/3.jpg';
-import ex4 from './assets/home/4.jpg';
-import ex5 from './assets/home/5.jpg';
+import ex1 from '../../assets/home/1.jpg';
+import ex2 from '../../assets/home/2.jpg';
+import ex3 from '../../assets/home/3.jpg';
+import ex4 from '../../assets/home/4.jpg';
+import ex5 from '../../assets/home/5.jpg';
 
 export default function Experiences() {
   const experiences = [
