@@ -1,5 +1,5 @@
 import React from 'react';
-import AbhayFirodiaPhoto from "./assets/home/Abhay_photo.jpg";
+import AbhayFirodiaPhoto from "../../assets/home/Abhay_photo.jpg";
 import { Link } from "react-router-dom";
 
 export default function FounderMessage() {

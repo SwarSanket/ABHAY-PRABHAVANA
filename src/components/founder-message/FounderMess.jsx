@@ -1,9 +1,10 @@
 import React from "react";
-import Header from "../../Header";
+import Header from "../header-footer/Header";
 import Values from "./Values";
 import Objective from "./Objective";
-import CTA from "../../Cta";
-import Footer from "../../Footer";
+import CTA from "../Home/Cta";
+import Footer from "../header-footer/FooterNew";
+
 import AboutAbhayPrabhavana from "../about/AboutAbhayPrabhavana";
 import MissionVision from "../about/VisionMission";
 

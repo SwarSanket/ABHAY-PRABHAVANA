@@ -1,6 +1,6 @@
 
 import React from "react";
-import FipchVdo from "./assets/fipch-vdo_3.mp4";
+import FipchVdo from "../../assets/video/fipch-vdo_3.mp4";
 
  export default function FipchVideo() {
     return (

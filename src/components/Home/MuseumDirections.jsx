@@ -1,5 +1,5 @@
 import React from "react";
-import mapImage from "./assets/MAP.jpeg";
+import mapImage from "../../assets/MAP.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBars,

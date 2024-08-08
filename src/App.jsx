@@ -1,18 +1,18 @@
 import "./App.css";
-import Experiences from "./Experiences";
-import SpecialFeatures from "./Special_Features";
-import FoundersMessage from "./Founder-Msg";
-import MuseumDirections from "./MuseumDirections";
-import Facilities from "./Facilities";
-import UpcomingFacilities from "./UpcomingFacilities";
-import CTA from "./Cta";
-import Footer from "./Footer";
-import Header from "./Header";
-import FipchVideo from "./FipchVideo";
-import Welcome from "./Welcome";
-import JourneyOption from "./JourneyOption";
-import JourneySwiper from "./JouerneySwiper";
-import FooterNew from "./FooterNew";
+import Experiences from "./components/Home/Experiences";
+import SpecialFeatures from "./components/Home/Special_Features";
+import FoundersMessage from "./components/Home/Founder-Msg";
+import MuseumDirections from "./components/Home/MuseumDirections";
+import Facilities from "./components/Home/Facilities";
+import UpcomingFacilities from "./components/Home/UpcomingFacilities";
+import CTA from "./components/Home/Cta";
+
+import Header from "./components/header-footer/Header";
+import FipchVideo from "./components/Home/FipchVideo";
+import Welcome from "./components/Home/Welcome";
+import JourneyOption from "./components/Home/JourneyOption";
+// import JourneySwiper from "./JouerneySwiper";
+import FooterNew from "./components/header-footer/FooterNew";
 
 
 function App() {
