@@ -26,6 +26,7 @@ export default {
         'fipch-champa': '#f9ba78',
         'fipch-pink': '#f59886',
         'fipch-conch': '#e6e2D7',
+        'fipch-yellow':'#FFD30E',
 
       },
 
