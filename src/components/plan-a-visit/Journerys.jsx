@@ -300,11 +300,12 @@ export default function Journeys() {
           </h3>
         </div> */}
 
-        <div className="flex justify-center">
+        <div className="flex justify-center mt-3">
           <button className="py-3 bg-gradient-to-br from-[#f15a22] to-[#fcb415] my-3 px-8 text-white font-bold text-lg">
             Book Now
           </button>
         </div>
+       <hr/>
       </div>
     </div>
   );
