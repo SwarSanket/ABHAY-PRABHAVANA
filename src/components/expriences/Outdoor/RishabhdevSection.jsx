@@ -8,7 +8,7 @@ const RishabhdevSection = () => {
       <div className="container mx-auto px-4 py-8">
         <div className="md:flex md:items-center  bg-white p-4 lg:p-8">
           <div className="md:w-2/3 p-4">
-            <h2 className="text-fipch-heading font-bold text-fipch-orange mb-4">
+            <h2 className="text-fipch-subheading lg:text-fipch-heading font-bold text-fipch-orange mb-4">
               Rishabhdev : Fountainhead of Civilizational Values
             </h2>
             <p className="text-fipch-text text-fipch-grey text-justify">

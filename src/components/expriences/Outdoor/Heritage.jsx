@@ -14,7 +14,7 @@ const Heritage = () => {
             />
           </div>
           <div className="md:w-2/3 p-4">
-            <h2 className="text-fipch-heading font-bold text-fipch-orange mb-4">
+            <h2 className="text-fipch-subheading lg:text-fipch-heading font-bold text-fipch-orange mb-4">
               Heritage Walk - nature trail
             </h2>
             <p className="text-fipch-text text-fipch-grey justify-normal text-justify">

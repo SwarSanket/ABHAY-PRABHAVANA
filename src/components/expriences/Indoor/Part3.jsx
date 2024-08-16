@@ -24,7 +24,7 @@ const Part3 = () => {
             <h2 className="text-[18px] sm:text-[20px] font-bold text-fipch-grey">
               PART 3
             </h2>
-            <h3 className="text-fipch-heading sm:text-[28px] font-bold text-[#e65100] mt-2">
+            <h3 className="text-fipch-subheading lg:text-fipch-heading sm:text-[28px] font-bold text-[#e65100] mt-2">
               Path to Happiness :
             </h3>
             <p className="text-fipch-text font-medium text-[#e65100]">
