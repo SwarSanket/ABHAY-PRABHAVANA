@@ -7,6 +7,7 @@ import CTA from '../Home/Cta'
 import Footer from '../header-footer/FooterNew'
 import Tradition from './Tradition'
 import Legacy from './Legacy'
+import StickyButton from "../Home/StickyButton"
 
 export default function About() {
   return (
@@ -20,6 +21,7 @@ export default function About() {
     <Tradition />
     <Legacy />
     <CTA />
+    <StickyButton/>
     <Footer />
 
      
