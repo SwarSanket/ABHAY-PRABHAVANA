@@ -13,6 +13,7 @@ import Welcome from "./components/Home/Welcome";
 import JourneyOption from "./components/Home/JourneyOption";
 // import JourneySwiper from "./JouerneySwiper";
 import FooterNew from "./components/header-footer/FooterNew";
+import StickyButton from "./components/Home/StickyButton"
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
       <Facilities />
       <UpcomingFacilities />
       <CTA />
+      <StickyButton/>
       <FooterNew />
       
       

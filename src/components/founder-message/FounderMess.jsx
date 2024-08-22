@@ -7,6 +7,7 @@ import Footer from "../header-footer/FooterNew";
 
 import AboutAbhayPrabhavana from "../about/AboutAbhayPrabhavana";
 import MissionVision from "../about/VisionMission";
+import StickyButton from "../Home/StickyButton";
 
 
 export default function FounderMess() {
@@ -18,6 +19,7 @@ export default function FounderMess() {
       <Values />
       <Objective />
       <CTA />
+      <StickyButton/>
       <Footer />
     </div>
   );

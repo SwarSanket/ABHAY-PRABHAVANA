@@ -62,7 +62,8 @@ function Header() {
               </ul>
             </div>
             <div className="flex items-center gap-2">
-              <button
+            <Link to = {'/Planavisit'}>
+            <button
                 type="button"
                 className="px-5 py-1 font-bold text-white bg-fipch-orange"
               >
@@ -73,6 +74,9 @@ function Header() {
                 onClick={onMenuToggle}
                 className="text-[30px] cursor-pointer md:hidden"
               />
+
+            </Link>
+              
             </div>
           </div>
         </nav>

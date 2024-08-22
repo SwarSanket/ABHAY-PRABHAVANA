@@ -1,0 +1,67 @@
+import React from 'react';
+import ex1 from "../../../assets/home/1.jpg";
+import Indoor from './Indoor';
+
+const Part = () => {
+  return (
+    <div className='w-full bg-[#f4f1ea]'>
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Indoor Component */}
+        <Indoor />
+
+        {/* Part 1 */}
+        <div className="flex flex-col lg:flex-row items-center lg:items-start mt-6 space-y-6 lg:space-y-0 lg:space-x-6">
+          {/* Image and Number Section for Mobile */}
+          <div className="flex items-center lg:hidden">
+            <div className="text-[100px] sm:text-[150px] font-bold text-gray-300 leading-none mr-4">
+              1
+            </div>
+            <div className="w-[70%]">
+              <img 
+                src={ex1} 
+                alt="Journey Image" 
+                className="w-full h-auto rounded"
+              />
+            </div>
+          </div>
+
+          {/* Image and Number Section for Desktop */}
+          <div className="hidden lg:flex lg:flex-1 lg:space-x-6">
+            <div className="text-[200px] font-bold text-gray-300 leading-none">
+              1
+            </div>
+            <div className="w-[30%]">
+              <img 
+                src={ex1} 
+                alt="Journey Image" 
+                className="w-full h-auto rounded"
+              />
+            </div>
+          </div>
+
+          {/* Text Content */}
+          <div className="w-full lg:w-1/2 flex flex-col justify-center">
+            <h2 className="text-[18px] sm:text-[20px] font-bold text-[#e65100]">
+              PART 1
+            </h2>
+            <h3 className="text-[24px] sm:text-[28px] font-bold text-[#e65100] mt-2">
+              Path of timeless Wisdom :
+            </h3>
+            <p className="text-[16px] font-medium text-[#e65100]">
+              Philosophy, Values and Spirituality
+            </p>
+            <p className="text-[16px] text-gray-700 mt-2">
+              The scientific and logical foundations of Jain concepts, values, 
+              and philosophy are explored in this part of the Centre.
+            </p>
+            <button className="text-[16px] text-gray-700 font-medium mt-4 flex items-center">
+              Details <span className="ml-2 transform rotate-180">&#9662;</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Part;
