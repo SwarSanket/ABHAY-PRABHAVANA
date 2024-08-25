@@ -7,7 +7,7 @@ import Footer from "../header-footer/FooterNew";
 import Tradition from "./Tradition";
 import Legacy from "./Legacy";
 import StickyButton from "../Home/StickyButton";
-import { Timeline } from "./Timeline";
+import Timeline from "./Timeline";
 
 export default function About() {
   return (
