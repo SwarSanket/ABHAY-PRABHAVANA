@@ -1,4 +1,3 @@
-import React from "react";
 // import LogoVertical from "./assets/header-footer/Logo-Vertical.png";
 import LogoVertical from "../../assets/header-footer/Logo-Vertical.png";
 
@@ -75,7 +74,7 @@ const Footer = () => {
                 <h4 className="font-semibold">Operating Days</h4>
               </div>
               <p>TBD</p>
-               <div className="w-1/4 border border-fipch-grey"></div>
+              <div className="w-1/4 border border-fipch-grey"></div>
               <div className="flex items-center space-x-2">
                 <FaClock />
                 <h4 className="font-semibold">Operating Hours</h4>

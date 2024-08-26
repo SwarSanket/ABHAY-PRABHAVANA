@@ -1,4 +1,3 @@
-import React from "react";
 import jrone1 from "../../assets/home/Jouney/JOURNEY1/1.jpg";
 import jrone2 from "../../assets/home/Jouney/JOURNEY1/2.jpg";
 import jrone3 from "../../assets/home/Jouney/JOURNEY1/3.jpg";
@@ -26,7 +25,9 @@ export default function Journeys() {
         <h1 className="mb-6 font-bold text-center text-fipch-heading text-fipch-orange">
           PLAN YOUR VISIT
         </h1>
-        <h2 className="text-center text-3xl font-semibold text-fipch-grey mb-4">Prepare for an enriching experience</h2>
+        <h2 className="text-center text-3xl font-semibold text-fipch-grey mb-4">
+          Prepare for an enriching experience
+        </h2>
         <div className="flex flex-wrap justify-between gap-4">
           {/* Card 1 */}
           <div className="flex flex-col w-full sm:w-[48%] lg:w-[23%] p-4">
@@ -166,7 +167,8 @@ export default function Journeys() {
                 </h2>
                 <p className="text-white text-center text-sm sm:text-[12px] leading-4">
                   Journey 1 + Journey 2 = Part 1 + Part 2 + Part 3 + Part 4 +
-                  Outdoors <br />(Ushered + Free flow)
+                  Outdoors <br />
+                  (Ushered + Free flow)
                 </p>
               </div>
               <div className="flex flex-wrap justify-center flex-1 p-3">
@@ -305,7 +307,6 @@ export default function Journeys() {
             Book Now
           </button>
         </div>
-       <hr/>
       </div>
     </div>
   );
