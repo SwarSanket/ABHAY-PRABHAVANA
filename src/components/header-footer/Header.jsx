@@ -39,7 +39,7 @@ function Header() {
                   <Link to={'/'}>HOME</Link>
                 </li> 
                 <li className="text-fipch-grey font-bold relative max-w-fit pr-3 md:pr-0 py-1 after:bg-gradient-to-r from-[#f15a22] to-[#fcb415] after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300">
-                  <Link to = {'/Expriences'}>EXPERIENCES</Link>
+                <Link to={'/Expriences'}>EXPERIENCES</Link>
                 </li>
                 <li className="relative py-1 pr-3 font-bold cursor-pointer text-fipch-grey md:pr-0" onMouseEnter={onDropdownToggle} onMouseLeave={onDropdownToggle}>
                   <div className="flex items-center justify-between">
@@ -62,21 +62,20 @@ function Header() {
               </ul>
             </div>
             <div className="flex items-center gap-2">
-            <Link to = {'/Planavisit'}>
-            <button
+            <Link to={'/Planavisit'}>
+              <button
                 type="button"
                 className="px-5 py-1 font-bold text-white bg-fipch-orange"
+                
               >
                 Plan a Visit
               </button>
+              </Link>
               <FontAwesomeIcon
                 icon={menuOpen ? faTimes : faBars}
                 onClick={onMenuToggle}
                 className="text-[30px] cursor-pointer md:hidden"
               />
-
-            </Link>
-              
             </div>
           </div>
         </nav>

@@ -3,6 +3,7 @@ import kundanmalPhoto from '../../assets/about-img/Shri_Kundanmal_Firodia.jpg'; 
 import navalmalkundanmalPhoto from '../../assets/about-img/Shri_Navalmal_Firodia.jpg'; // Replace with the actual path to your image
 import abhayFirodiaPhoto from '../../assets/about-img/Shri_Abhay_Firodia.jpg'; // Replace with the actual path to your image
 
+
 const FoundersAndTrustees = () => {
   return (
     <div className="container px-4 py-8 mx-auto">

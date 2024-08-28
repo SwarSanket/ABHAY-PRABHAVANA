@@ -6,6 +6,7 @@ import MuseumDirections from "./components/Home/MuseumDirections";
 import Facilities from "./components/Home/Facilities";
 import UpcomingFacilities from "./components/Home/UpcomingFacilities";
 import CTA from "./components/Home/Cta";
+import AddOnExp from "./components/Home/AddOnExp";
 
 import Header from "./components/header-footer/Header";
 import FipchVideo from "./components/Home/FipchVideo";
@@ -26,6 +27,7 @@ function App() {
       <Experiences />
       <FoundersMessage />
       <JourneyOption />
+      <AddOnExp />
       <MuseumDirections />
       <Facilities />
       <UpcomingFacilities />

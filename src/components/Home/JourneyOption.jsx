@@ -312,11 +312,11 @@ export default function JourneyOption() {
           <div className="flex flex-col p-4 h-1/2">
             <div
               className="flex flex-col flex-1 border-4 rounded-lg shadow-lg"
-              style={{ borderColor: "#4D4D4D" }}
+              style={{ borderColor: "#f4a82c" }}
             >
               <div
                 className="w-full px-5 py-5"
-                style={{ backgroundColor: "#4D4D4D" }}
+                style={{ backgroundColor: "#f4a82c" }}
               >
                 <h2 className="text-2xl font-bold text-center text-white">
                   Journey 4
@@ -365,7 +365,7 @@ export default function JourneyOption() {
               <div className="flex flex-col items-center justify-center mb-2 ">
                 <button
                   className="w-32 py-2 mb-2 text-white "
-                  style={{ backgroundColor: "#4D4D4D" }}
+                  style={{ backgroundColor: "#f4a82c" }}
                 >
                   Know more
                 </button>
@@ -377,18 +377,7 @@ export default function JourneyOption() {
           </div>
         </Slider>
 
-        <div className="flex justify-center">
-          <h3 className="text-xs sm:text-sm md:text-xl text-center font-semibold border-8 border-[#F59886] rounded-full  text-[#F59886] py-3 px-5">
-            {" "}
-            ADD ON EXPERIENCE : MANTSTAMBH VIEWING GALLERY{" "}
-          </h3>
-        </div>
-
-        <div className="flex justify-center">
-          <button className="py-3 bg-gradient-to-br from-[#f15a22] to-[#fcb415] my-3  px-5 text-white">
-            Book Now
-          </button>
-        </div>
+        
       </div>
     </div>
   );

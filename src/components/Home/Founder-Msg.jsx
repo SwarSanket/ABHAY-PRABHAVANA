@@ -24,10 +24,10 @@ export default function FounderMessage() {
             ABHAY PRABHAVANA:
             <br /> A PRECIOUS AND SELFLESS GIFT TO SOCIETY
           </p>
-          <p className="pt-3 text-center text-fipch-text text-fipch-grey md:text-left">
-            This is an attempt to create a comprehensive repository of core Jain
-            values, showcase the evolution of its vibrant culture, glorious
-            history and document Jainism’s impact on the Indian value system.
+          <p className="pt-3 text-lg text-center text-fipch-text text-fipch-grey md:text-left">
+            This is an attempt to create a comprehensive repository of <span className='font-semibold'>core Jain
+            values</span>, showcase the evolution of its <span className='font-semibold'>vibrant culture, glorious
+            history</span> and document <span className='font-semibold'>Jainism’s impact on the Indian value system.</span>
           </p>
           <div className="flex justify-center md:justify-start">
             <Link to="/founder-message">
