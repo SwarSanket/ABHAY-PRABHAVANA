@@ -1,8 +1,8 @@
 import React from 'react';
 import JourneyCard from './JourneyCard'; // Ensure you import the JourneyCard component
-import img1 from '../../../assets/home/1.jpg';
-import img2 from '../../../assets/home/3.jpg';
-import img3 from '../../../assets/home/5.jpg';
+import img1 from '../../../assets/journey/1.jpg';
+import img2 from '../../../assets/journey/2.jpg';
+import img3 from '../../../assets/journey/3.jpg';
 
 export default function Jrop1discription() {
   const cards = [
@@ -30,7 +30,7 @@ export default function Jrop1discription() {
   ];
 
   return (
-    <div className='flex justify-center  mt-8'>
+    <div className='flex justify-center mt-8'>
       <div className='container mx-auto sm:container-sm sm:mx-auto md:container-md md:mx-auto'>
         <div>
           {cards.map((card, index) => (

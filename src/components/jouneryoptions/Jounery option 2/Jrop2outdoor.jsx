@@ -1,18 +1,18 @@
 import React from "react";
-import img1 from "../../../assets/JourneyOptions/op1/1.jpg";
-import img2 from "../../../assets/JourneyOptions/op1/4.jpg";
-import img3 from "../../../assets/JourneyOptions/op1/3.jpg";
-import img4 from "../../../assets/JourneyOptions/op1/5.jpg";
-import img5 from "../../../assets/JourneyOptions/op1/6.jpg";
-import img6 from "../../../assets/JourneyOptions/op1/2.jpg";
+import img1 from "../../../assets/journey/4.jpg";
+import img2 from "../../../assets/journey/5.jpg";
+import img3 from "../../../assets/journey/6.jpg";
+import img4 from "../../../assets/journey/8.jpg";
+import img5 from "../../../assets/journey/9.jpg";
+import img6 from "../../../assets/journey/7.jpg";
 
 const Jrop2outdoor = () => {
   return (
     <div className="container mx-auto ">
       <div className="flex flex-col md:flex-row">
         <div className="border-r-[1px] w-full  md:w-1/2">
-          <h3 className="text-fipch-orange text-2xl font-bold pl-5">
-            <span className="text-fipch-grey font-bold text-2xl">
+          <h3 className="pl-5 text-2xl font-bold text-fipch-orange">
+            <span className="text-2xl font-bold text-fipch-grey">
               Rishabhdev
             </span>{" "}
             : Fountainhead of Civilizational Values
@@ -27,7 +27,7 @@ const Jrop2outdoor = () => {
           </div>
         </div>
         <div className="w-full md:w-1/2">
-          <h3 className="text-fipch-orange text-2xl font-bold pl-5">
+          <h3 className="pl-5 text-2xl font-bold text-fipch-orange">
            Heritage Walk - Nature trail
           </h3>
           <div className="flex flex-row p-6">
@@ -41,9 +41,9 @@ const Jrop2outdoor = () => {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row border-t-2">
+      <div className="flex flex-col border-t-2 md:flex-row">
         <div className="border-r-[1px] w-full md:w-1/2">
-          <h3 className="text-fipch-orange text-2xl font-bold pl-5 pt-3">
+          <h3 className="pt-3 pl-5 text-2xl font-bold text-fipch-orange">
            Plaza of Equanity
           </h3>
           <div className="flex flex-row p-4 m-2">
@@ -55,8 +55,8 @@ const Jrop2outdoor = () => {
             </div>
           </div>
         </div>
-        <div className=" border-fipch-grey w-full md:w-1/2">
-          <h3 className="text-fipch-orange text-2xl font-bold pl-3 mt-3">
+        <div className="w-full  border-fipch-grey md:w-1/2">
+          <h3 className="pl-3 mt-3 text-2xl font-bold text-fipch-orange">
             Garden of the Revered
           </h3>
           <div className="flex flex-row p-6">
@@ -71,9 +71,9 @@ const Jrop2outdoor = () => {
       </div>
 
 
-      <div className="flex flex-col md:flex-row border-t-2 border-b-2">
+      <div className="flex flex-col border-t-2 border-b-2 md:flex-row">
         <div className="border-r-[1px]  w-full md:w-1/2">
-          <h3 className="text-fipch-orange text-2xl font-bold pl-3 pt-3">
+          <h3 className="pt-3 pl-3 text-2xl font-bold text-fipch-orange">
             Mandal Wall - Murals
           </h3>
           <div className="flex flex-row p-4 mt-2">
@@ -85,8 +85,8 @@ const Jrop2outdoor = () => {
             </div>
           </div>
         </div>
-        <div className=" border-fipch-grey w-full md:w-1/2">
-          <h3 className="text-fipch-orange text-2xl font-bold pl-4 pt-3">
+        <div className="w-full  border-fipch-grey md:w-1/2">
+          <h3 className="pt-3 pl-4 text-2xl font-bold text-fipch-orange">
           Manastambh
           </h3>
           <div className="flex flex-row p-6">

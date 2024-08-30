@@ -6,9 +6,9 @@ import img4 from "../../../assets/journey/8.jpg";
 import img5 from "../../../assets/journey/9.jpg";
 import img6 from "../../../assets/journey/7.jpg";
 
-const Jrop1outdoor = () => {
+const OnlyOutdoor = () => {
   return (
-    <div className="container mx-auto ">
+    <div className="container py-10 mx-auto">
       <div className="flex flex-col md:flex-row">
         <div className="border-r-[1px] w-full  md:w-1/2">
           <h3 className="pl-5 text-2xl font-bold text-fipch-orange">
@@ -105,4 +105,4 @@ const Jrop1outdoor = () => {
   );
 };
 
-export default Jrop1outdoor;
+export default OnlyOutdoor;

@@ -3,7 +3,7 @@ import Slider from "react-slick"; // Import Slider component from react-slick
 import Outimg1 from "../../../assets/experiences/outdoor/manastambha/1.jpg";
 import Outimg2 from "../../../assets/experiences/outdoor/manastambha/2.jpg";
 import Outimg3 from "../../../assets/experiences/outdoor/manastambha/3.jpg";
-import Outimg4 from "../../../assets/experiences/outdoor/manastambha/4.jpg";
+
 
 // Import slick-carousel styles
 import "slick-carousel/slick/slick.css";
@@ -52,13 +52,7 @@ const Manastambh = () => {
                 />
               </div>
               {/* Slide 4 */}
-              <div>
-                <img
-                  src={Outimg4}
-                  alt="Manastambh"
-                  className="w-full h-auto shadow-lg"
-                />
-              </div>
+             
             </Slider>
           </div>
           <div className="p-4 md:p-10 md:w-2/3">

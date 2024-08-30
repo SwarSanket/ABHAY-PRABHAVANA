@@ -23,6 +23,7 @@ import BookOp3 from "./Jounery option 3/BookOp3";
 
 // Journey 4
 import Jrop4Heading from "./Jounery option 4/Jrop4Heading";
+import OnlyOutdoor from "./Jounery option 4/OnlyOutdoor";
 import BookOp4 from "./Jounery option 4/BookOp4";
 import AddExpriences from "./Jounery option 4/AddExpriences";
 import Cta from "../Home/Cta";
@@ -55,6 +56,7 @@ function Jouneryoption() {
       {/* Journey 4  */}
       <Jrop4Heading />
       <Map />
+      <OnlyOutdoor />
       <BookOp4 />
       <AddExpriences />
       <Cta />

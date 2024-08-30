@@ -2,12 +2,12 @@ import React from 'react';
 
 export default function Jrop3Heading() {
   return (
-    <div className='w-full flex flex-col justify-center items-center bg-fipch-orange  py-4 mt-4'>
-      <h2 className='text-fipch-subheading px-4 sm:text-fipch-heading text-center text-white font-bold'>
-        Journey option 3 -  Journey 1+ Journey 2
+    <div className='flex flex-col items-center justify-center w-full py-4 mt-4 bg-fipch-orange'>
+      <h2 className='px-4 font-bold text-center text-white text-fipch-subheading sm:text-fipch-heading'>
+        Journey option 3 -  Journey 1 + Journey 2
       </h2>
-      <span className='text-center text-fipch-text text-fipch-grey'>
-        Approximate time: approx. 4 hrs
+      <span className='text-center text-white text-fipch-text'>
+        Ushered + Freeflow | Approximate time: approx. 4 hrs
       </span>
     </div>
   );
