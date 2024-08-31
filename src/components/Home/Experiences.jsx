@@ -19,7 +19,7 @@ export default function Experiences() {
     {
       id: 2,
       img: ex2,
-      title: 'Path of Jain Culture and Tradition',
+      title: 'Path of Jain Culture and History',
       subtitle:'',
       description: (<>A self-guided journey <span className='font-semibold'>celebrating the - beauty of art, grandeur of architecture, historic evolution, vast literature, vibrant culture and prosperous society.</span></>),
       journeys: 'Included in Journey 2 & 3',
@@ -51,7 +51,7 @@ export default function Experiences() {
     {
       id: 6,
       img: ex6,
-      title: 'Upcoming Childrens Museum',
+      title: (<>Upcoming (Children's Museum)</>),
       subtitle:'',
       description: '---',
       journeys: 'Included in ---',

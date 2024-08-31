@@ -187,7 +187,7 @@ export default function JourneyOption() {
                   Journey 2
                 </h2>
                 <p className="text-white text-center text-sm sm:text-[12px] leading-4">
-                  Part 2(Path of Jain Culture & Tradition) + <br />Part 3(Path to Happiness) + <br />Part 4(Eternal Stream of Indic Values) + <br />Outdoors (Ushared)
+                  Part 2(Path of Jain Culture & History) + <br />Part 3(Path to Happiness) + <br />Part 4(Eternal Stream of Indic Values) + <br />Outdoors (Ushared)
                 </p>
               </div>
               <div className="flex flex-wrap justify-center flex-1 p-3 ">
@@ -248,7 +248,7 @@ export default function JourneyOption() {
                   Journey 3
                 </h2>
                 <p className="text-white text-center text-sm sm:text-[12px] leading-4">
-                  Journey 1 + Journey 2 = <br />Part 1(Path of Timeless Wisdom) + <br />Part 2(Path of Jain Culture & Tradition) + <br />Part 3(Path to Happiness) +
+                  Journey 1 + Journey 2 = <br />Part 1(Path of Timeless Wisdom) + <br />Part 2(Path of Jain Culture & History) + <br />Part 3(Path to Happiness) +
                   <br />Outdoors (Ushered + Free flow)
                 </p>
               </div>

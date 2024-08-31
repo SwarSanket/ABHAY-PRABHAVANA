@@ -38,6 +38,7 @@ function Jouneryoption() {
       <Jrop1discription />
       <Outdoor />
       <Jrop1outdoor />
+      <AddExpriences />
       <BookOp1 />
 
       {/* Journey 2 */}
@@ -45,13 +46,15 @@ function Jouneryoption() {
       <Map />
       <Jrop2discription />
       <Outdoorjr2 />
-
       <Jrop2outdoor />
+      <AddExpriences />
       <BookOp2 />
+      
       {/* Journey 3 */}
       <Jrop3Heading />
       <Map />
       <BookOp3 />
+      <AddExpriences />
 
       {/* Journey 4  */}
       <Jrop4Heading />

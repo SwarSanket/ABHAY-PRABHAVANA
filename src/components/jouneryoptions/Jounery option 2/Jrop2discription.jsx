@@ -8,7 +8,7 @@ export default function Jrop2discription() {
   const cards = [
     {
       part: '2',
-      title: 'Path of Jain Culture and Tradition:',
+      title: 'Path of Jain Culture and History:',
       subtitle: '',
       description: 'This part of the Centre showcases the evolution, development, and geographic spread of Shraman and Jain philosophy, the most ancient tradition of India, across six exquisitely appointed galleries.',
       image: img1
