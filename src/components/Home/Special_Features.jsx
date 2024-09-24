@@ -4,13 +4,13 @@ const features = [
   {
     title: (
       <>
-        20+ hectares<br />(50+ acres) land
+        65.5+ hectares <br /> (162+ acres) of land available
       </>
     ),
     description: (
       <>
-        On the banks of the revered Indrayani river, making it one of the{" "}
-        <span className="font-semibold">Largest Museums in the World.</span>
+        On the banks of the revered Indrayani river, possibly the
+        <span className="font-semibold"> Largest Museum in the World.</span>
       </>
     ),
   },
@@ -26,7 +26,7 @@ const features = [
   {
     title: (
       <>
-        40,000 sq.m<br />(4 lakh sq.ft)
+        32,500 sq.m (3.5 lakh sq.ft)
       </>
     ),
     description: (<><span className="font-semibold">Built-up space</span> of curated <span className="font-semibold">experiences</span>.</>),
@@ -34,15 +34,40 @@ const features = [
   {
     title: (
       <>
-        8 hectares<br />(20 acres)
+        8 hectares (20 acres)
       </>
     ),
-    description: (<>Of <span className="font-semibold">lush landscape</span> with <span className="font-semibold">outdoor exhibits</span>.</>),
+    description: (<>Of <span className="font-semibold">specially curated lush landscape</span> with <span className="font-semibold">replicas of historic monuments </span>.</>),
   },
   {
-    title: <>350 artworks</>,
+    title: <>350 awe inspiring, specially created pieces of art, spread over 30 hitech, breathtaking galleries</>,
     description:
-      (<>Spread over <span className="font-semibold">30 galleries</span> in the form of Installations, Murals, Illustrations for various Audio-Visuals, Graphics, Touch tables and Kiosks and Dome experience.</>),
+      (<>In the form of Installations, Murals, Illustrations for various Audio-Visuals, Graphics, Touch tables, Kiosks and Dome experience.</>),
+  },
+  {
+    title: <>All 7 days a week edutainment</>,
+    description:
+      (<>With latest technology systems and processes</>),
+  },
+  {
+    title: <>All day activities for the entire family</>,
+    description:
+      (<>Supported by 300+ service staff.</>),
+  },
+  {
+    title: <>2000 footfall per day capacity</>,
+    description:
+      (<></>),
+  },
+  {
+    title: <>Sustainable development </>,
+    description:
+      (<></>),
+  },
+  {
+    title: <>Leed certification </>,
+    description:
+      (<>in process </>),
   },
 ];
 

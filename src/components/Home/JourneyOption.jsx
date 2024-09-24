@@ -108,7 +108,7 @@ export default function JourneyOption() {
     <div className="relative flex justify-center w-full py-20 overflow-hidden">
       <div className="relative w-[90%] sm:w-[100%] md:w-[95%] lg:w-[85%] xl:w-1/2 mx-auto">
         <h1 className="mb-6 font-bold text-center text-fipch-heading text-fipch-orange">
-          JOURNEY OPTIONS
+        TICKETED JOURNEYS
         </h1>
         <Slider {...settings}>
           {/* Card 1 */}
@@ -125,10 +125,16 @@ export default function JourneyOption() {
                   Journey 1
                 </h2>
                 <p className="text-white text-center text-sm sm:text-[12px] leading-4">
-                  Part 1(Path of Timeless Wisdom) + <br />Part 3(Path to Happiness) + <br />Part 4(Eternal Stream of Indic Values) + <br />Outdoors
-                  (Ushared)
+                  Part 1(Path of Timeless Wisdom) + <br />Part 3(Path to Happiness) + <br />Part 4(Eternal Stream of Indic Values) + <br />Part 5(Open Air Heritage Walk)
                 </p>
               </div>
+
+              <div className="text-fipch-grey text-center text-sm sm:text-[14px] leading-4 pt-2">
+                <p>Batched (in Part 1) for max. 40 people + Free flow <br /> (Parts 3,4 and 5) Children below 12 not allowed.
+</p>
+              </div>
+      
+
               <div className="flex flex-wrap justify-center flex-1 p-3">
                 <div className="w-1/2 p-1">
                   <img
@@ -164,8 +170,11 @@ export default function JourneyOption() {
                   className="w-32 py-2 mb-2 text-white "
                   style={{ backgroundColor: "#F59886" }}
                 >
-                  Know more
+                  Know More
                 </button>
+                <p className="text-sm text-center">
+                  Recommended Time : Approx. 3.5 hrs
+                </p>
                 <p className="text-xs text-center">
                   Viewing Time Required Approx 3 hrs
                 </p>
